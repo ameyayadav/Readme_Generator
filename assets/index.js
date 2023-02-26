@@ -2,8 +2,8 @@ console.log(process.argv);
 // importing few packages such as fs and inquirer
 
 const fs = require("fs") 
-const inquirer =  require("inquirer")  
-
+// const inquirer =  require("inquirer")  
+import inquirer from "inquirer";
 
 inquirer.prompt([
     {
@@ -12,4 +12,4 @@ inquirer.prompt([
     name:"name",
 
 }
-]);
+]); 
