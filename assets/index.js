@@ -1,15 +1,22 @@
 console.log(process.argv);
-// importing few packages such as fs and inquirer
+const fs = require("fs");
+const path = require('path');
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
-const fs = require("fs") 
-// const inquirer =  require("inquirer")  
-import inquirer from "inquirer";
+// array of questions for user
+const questions = [
 
-inquirer.prompt([
-    {
-    type:'input',
-    message: "What is your name ?",
-    name:"name",
+];
+
+// function to write README file
+function writeToFile(fileName, data) {
+}
+
+// function to initialize program
+function init() {
 
 }
-]); 
+
+// function call to initialize program
+init();
