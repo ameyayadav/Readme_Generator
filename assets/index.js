@@ -20,8 +20,11 @@ const questions = [
 ];
 
 // function to write README file
-// function writeToFile(fileName, data) {
-// }
+function writeToFile(fileName, data) {
+        fs.writeFile(fileName, data, (err) => {
+          err ? console.error(err) : console.log("Success");
+        })
+      }
 
 // function to initialize program
 // this function holds the package inquirer prompt is within the package and gnearting a readme file as well
@@ -81,7 +84,7 @@ function init() {
     },
   ])
   .then((answers) => {
-    const readme = generateREADME(answers);
+    const readme = generateMarkdown(answers);
     fs.writeFile('README.md', readme, (err) =>
       err ? console.log(err) : console.log('Successfully generated README!')
     );
