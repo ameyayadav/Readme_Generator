@@ -23,6 +23,7 @@ const questions = [
 // }
 
 // function to initialize program
+// this function holds the package inquirer prompt is within the package and gnearting a readme file as well
 function init() {
     inquirer
   .prompt([
