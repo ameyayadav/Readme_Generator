@@ -1,9 +1,10 @@
 console.log(process.argv);
-const fs = require("fs");
-const path = require('path');
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
-
+// const fs = require("fs");
+import fs from "fs";
+// const inquirer = require("inquirer");
+import inquirer from "inquirer";
+// const generateMarkdown = require("./utils/generateMarkdown");
+import generateMarkdown from "./utils/generateMarkdown"
 // array of questions for user
 const questions = [
     "What is your project's title?", 
