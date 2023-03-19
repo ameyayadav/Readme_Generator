@@ -9,3 +9,9 @@ As a developer, I want a README generator so that I can quickly create a profess
 # Installation Required
 
 Install Node JS and Install Inquirer Package
+
+# Video Uploaded:
+
+Display how the Readme Generated using Bash Terminal
+
+https://drive.google.com/drive/folders/138d0PdBO38h29v6DFFyb6QkNr9kREPet
